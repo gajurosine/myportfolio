@@ -1,7 +1,7 @@
 import React from 'react';
-import codes from '../../Asset/images/code3.avif'
-import scie from '../../Asset/images/back.avif'
-import robot from '../../Asset/images/code.avif'
+import petit from '../../Asset/images/codi.jpg'
+import cxr from '../../Asset/images/cdv.jpg'
+import rca from '../../Asset/images/coding.jpg'
 
 
 function EDUCATION(props) {
@@ -14,7 +14,7 @@ function EDUCATION(props) {
          </div>
        <div className='my-experience'>
         <div className='develop-img'>
-        <img src={codes} alt='devolop experience' className='img_devops' />
+        <img src={petit} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2008-2016</h2>
@@ -28,7 +28,7 @@ function EDUCATION(props) {
 
        <div className='my-experience'>
         <div className='develop-img'>
-        <img src={scie} alt='devolop experience' className='img_devops' />
+        <img src={cxr} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2017-2020</h2>
@@ -44,7 +44,7 @@ function EDUCATION(props) {
 
        <div className='my-experience'>
         <div className='develop-img'>
-        <img src={robot} alt='devolop experience' className='img_devops' />
+        <img src={rca} alt='devolop experience' className='img_devops' />
         </div>
             <div className='exp-desc'>
                 <h2 className='tit-exp'>2021-2024</h2>

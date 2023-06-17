@@ -472,7 +472,6 @@ margin: 50px;
 
 
     .contact-content{
-        padding-top: 20px;
         width: 100%;
         height: 150vh;
     }
@@ -516,4 +515,28 @@ font-family: sans-serif;
 font-weight: bold;
 margin: 50px;
 
+}
+
+.contact-info{
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px 10px #1a1919;
+    width: 95%;
+    height: 60vh;
+    flex-direction: row;
+    display: flex;
+    background-color: blue;
+}
+
+.contact-side1{
+    width: 45%;
+    height: 58vh;
+    background-color: red;
+}
+
+.contact-form{
+    width: 46%;
+    height: 58vh;
+    background-color: rgb(177, 169, 3);
+    display: flex;
+    flex-direction: row;
 }
